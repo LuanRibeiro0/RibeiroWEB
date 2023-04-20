@@ -1,0 +1,90 @@
+@media screen and (max-width: 770px){
+    .itens-menu-mobile{
+        display: block; 
+    }
+
+    .menu-mobile{    
+        opacity: 0;
+        transition: 1.2s;
+        position: absolute;
+        left:0;
+        top:65px;
+        background-color: rgb(24, 78, 255);
+        width:100%;
+        padding:15px 0;
+        text-align: center;
+    }
+
+    .show{
+        opacity: 1;
+    }
+    
+    .hide{
+        opacity: 0;
+    }
+
+    .menu-mobile a{
+        text-align: center;
+        display: block;
+        margin:8px 0;
+        color:white;
+        text-decoration: none;
+        font-weight: bold;
+        padding:8px 0;
+    }
+
+    section.main .itens-menu{
+        display: none;
+    }
+
+    .itens-menu-mobile a:hover{
+        background-color: white;
+        color:  rgb(24, 78, 255);
+    }
+
+    .diferenciais{
+        flex-wrap: wrap;
+    }
+
+    .box-diferenciais{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    section.clientes > .center{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section.clientes h1{
+        text-align: center;
+        font-size: 25px; 
+        font-weight: bold;
+    }
+
+    section.clientes img{
+        width: 60%;
+    }
+
+    .lista-beneficios, .img-beneficios{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    footer .itens-menu{
+        width: 100%;
+        text-align: center;
+    }
+
+    footer .itens-menu a{
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+    }
+    .text-footer{
+        width:100%;
+        text-align: center;
+        padding:8px 0;
+    }
+}
